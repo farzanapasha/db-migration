@@ -3,10 +3,10 @@ import os
 
 # MySQL Connection Configuration
 DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "password",
-    "database": "my_database"
+    "host": os.getenv("MYSQL_HOST"),
+    "user": os.getenv("MYSQL_USER"),
+    "password": os.getenv("MYSQL_PASSWORD"),
+    "database": os.getenv("MYSQL_DATABASE")
 }
 
 # SQL Migration Files Directory
