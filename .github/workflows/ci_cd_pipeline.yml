@@ -3,7 +3,7 @@ name: CI/CD Database Deployment
 on:
   push:
     branches:
-      - farzanapashajahangeer
+      - main
 
 jobs:
   deploy-database:
