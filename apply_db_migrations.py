@@ -3,11 +3,18 @@ import os
 
 # MySQL Connection Configuration
 DB_CONFIG = {
-    "host": os.getenv("MYSQL_HOST"),
-    "user": os.getenv("MYSQL_USER"),
-    "password": os.getenv("MYSQL_PASSWORD"),
-    "database": os.getenv("MYSQL_DATABASE")
+    "host": "8951872-database-server.mysql.database.azure.com",
+    "user": "farzana",
+    "password": "xqMEJJLrV4WxdMH",
+    "database": "companydb"
 }
+
+#DB_CONFIG = {
+#    "host": os.getenv("MYSQL_HOST"),
+#    "user": os.getenv("MYSQL_USER"),
+#    "password": os.getenv("MYSQL_PASSWORD"),
+#    "database": os.getenv("MYSQL_DATABASE")
+#}
 
 # SQL Migration Files Directory
 MIGRATIONS_DIR = "./migrations"
